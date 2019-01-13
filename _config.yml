@@ -78,7 +78,10 @@ theme: archer
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/TriDiamond/tridiamond.github.io  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master #published
+  message:
 
 jsonContent:
   meta: true
