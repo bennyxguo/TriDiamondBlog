@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TriDiamond's Blog.
+title: 三·钻 TriDiamond
 subtitle:
 description:
 keywords:
-author: TriDiamond
-language:
+author: 三·钻 TriDiamond
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.codelives.com
+url: https://tridiamond.tech
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -29,13 +29,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :year-:month-:day-:title.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -73,37 +73,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: archer
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/TriDiamond/tridiamond.github.io  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: master #published
+  repo: https://github.com/TriDiamond/tridiamond.github.io
+  branch: master
   message:
-
-jsonContent:
-  meta: true
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: true
-    excerpt: false
-    categories: true
-    tags: true
-
-algolia:
-  applicationID: 'YU4YGNIOTD'
-  apiKey: '96a6beb3a93d70b3b5f2a9e90a323fc2'
-  indexName: 'TriDiamond Blog'
-  chunkSize: 5000

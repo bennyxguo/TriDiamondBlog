@@ -9,6 +9,7 @@ tags:
   - Ionic 2
   - Angular 4
   - Hybird App
+cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ---
 
 ## 添加绑定值

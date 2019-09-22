@@ -4,10 +4,13 @@ date: 2019-01-10 01:40:41
 abstract: 手把手教你在Lumen的Passport实现多个用户体系下使用多个Oauth验证
 header_image: /assets/images/lumen-banner.png
 categories:
+  - Backend
+  - 后端
   - Lumen
 tags:
   - Lumen
   - Laravel Passport
+cover: https://s2.ax1x.com/2019/09/18/noNZf1.png
 ---
 
 这个教程是基于, lumen里面已经安装好了lumen-passport的插件, 如果还没有的话可以先到[lumen使用laravel passport教程](/2019/01/10/lumen-passport-usage/)先安装.

@@ -1,7 +1,5 @@
 ---
 title: 阿里云GitLab Webhook 自动部署手册
-abstract: 手把手教你在阿里云代码托管配置自动部署webhook和PHP脚本
-header_image: /assets/images/lumen-banner.png
 categories:
   - Gitlab
 tags:

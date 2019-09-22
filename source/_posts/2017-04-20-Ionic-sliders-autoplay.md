@@ -4,11 +4,13 @@ abstract: 使用sliders轮播时拖动后autoplay失效解决方法
 header_image: /assets/images/ionic2-banner.png
 date: 2017/04/20
 categories:
-  - Ionic 3
+  - Frontend
+  - 前端
 tags:
   - Ionic 3
   - Angular 4
   - Hybird App
+cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ---
 
 #### 我们先了解一下Ionic的Sliders

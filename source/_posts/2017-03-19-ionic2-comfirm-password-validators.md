@@ -4,11 +4,12 @@ abstract: 开发过程中一般在注册或者修改密码都要写一个密码�
 header_image: /assets/images/ionic2-banner.png
 date: 2017/03/19
 categories:
-  - Ionic 2
+  - Ionic
 tags:
   - Ionic 2
   - Angular 2
   - Hybird App
+cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ---
 
 开发过程中一般在注册或者修改密码都要写一个密码确认的表格, 这篇文章就是记录怎么在Ionic2里面使用**FormBuilder**和**Validators**判断密码是否一致.

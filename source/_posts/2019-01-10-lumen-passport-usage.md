@@ -1,14 +1,14 @@
 ---
 title: Lumen 使用 laravel passport
-abstract: Lumen是laravel的简洁版, 把laravel里面深重的依赖都去掉了, 所以直接安装laravel的passport是无法正常使用的. 
-          所以如果要在lumen上使用laravel的passport就需要安装另外一个插件.
 date: 2019-01-10 01:51:23
-header_image: /assets/images/lumen-banner.png
 categories:
+  - Backend
+  - 后端
   - Lumen
 tags:
   - Lumen
   - Laravel Passport
+cover: https://s2.ax1x.com/2019/09/18/noNZf1.png
 ---
 
 Lumen是laravel的简洁版, 把laravel里面深重的依赖都去掉了, 所以直接安装laravel的passport是无法正常使用的. 

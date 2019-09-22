@@ -4,11 +4,13 @@ abstract: 记录了所有IONIC 2开发时踩过的坑
 header_image: /assets/images/ionic2-banner.png
 date: 2017/02/25
 categories:
-  - Ionic2
+  - Ionic
+  - Frontend
 tags:
   - Ionic 2
   - Angular 2
   - Hybird App
+cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ---
 
 因为IONIC2才刚刚开始进入正式版, 中文文档基本都是不全的, 我现在开发都是在看英文文档

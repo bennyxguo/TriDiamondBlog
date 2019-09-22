@@ -4,11 +4,13 @@ abstract: 这一次的升级Ionic 3 换成了使用最新的Angular 4.0, 最新�
 header_image: /assets/images/ionic2-banner.png
 date: 2017/04/10
 categories:
-  - Ionic 3
+  - Frontend
+  - Ionic
 tags:
   - Ionic 3
   - Angular 4
   - Hybird App
+cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ---
 
 ## 升级步骤
