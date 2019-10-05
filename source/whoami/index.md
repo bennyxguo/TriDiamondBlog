@@ -2,24 +2,27 @@
 title: Whoami
 date: 2019-09-18 13:53:57
 ---
+<div class="my-links">
+  <a class="gradient-text" href="https://github.com/TriDiamond" target="_blank" rel="noopener"><span class=" iconfont icon-github"></span></a>
+  <a class="gradient-text" href="https://twitter.com/TriDiamond6" target="_blank" rel="noopener"><span class=" iconfont icon-twitter"></span></a>
+  <a class="gradient-text" href="https://stackoverflow.com/users/7602324/tridiamond?tab=profile" target="_blank" rel="noopener"><span class=" iconfont icon-stack-overflow"></span></a>
+</div>
 
-<img
-  style="border-radius: 50%;
-    border-size: 3px;
-    box-shadow: 0 20px 50px rgba(115, 221, 215, 0.8);
-    margin: 20px 0 0;"
-  height=150
-  width=150
-  src="https://s2.ax1x.com/2019/09/19/nLtSiD.png">
-</img>
+<style>
+  .my-links {display: flex; align-content: flex-start; margin-top: 30px;}
+  .my-links a {display: flex; color: #000; padding: 2px 10px;border-bottom:none !important;}
+  .my-links a span {font-size: 28px;}
+</style>
 
 #### 关于我 Who am I
 
+<img src="https://s2.ax1x.com/2019/09/19/nLtSiD.png" style="height: 50px; width: 50px; border-radius: 50%; margin-bottom: 15px" />
+
 欢迎来到我的博客, 我是<b style="color: #42d2ca"> **三·钻 (TriDiamond)** </b>, 
-从专注于 PHP 开发到入坑前端 Vue，Angular和混合APP开发，
+8年里从专注于 PHP 开发到入坑前端 Vue，Angular和混合APP开发，
 慢慢升级打怪，刷副本成为一个小小的全栈开发工程师/架构师。
 
-追求极致, 追求完美,  喜欢一个高效, 优雅, 高凝聚力的团队,
+追求极致, 追求完美, 喜欢一个高效, 优雅, 高凝聚力的团队,
 立志于打造最优秀的产品, 成为一名既优雅而有深度的技术人才。
 
 热爱户外旅游和接受挑战，与女朋友玩耍逛街，生活和工作平衡，有节奏感的人生。
@@ -29,7 +32,6 @@ date: 2019-09-18 13:53:57
 Welcome to my blog, I am <b style="color: #42d2ca">**TriDiamond**</b>
 Full-stack software engineer and framework architect , 
 specialized in PHP, Javascript, VueJs, AngularJs, Webpack, Laravel, Lumen.
-
 
 #### 开源项目 Open Source Projects
 
@@ -52,4 +54,3 @@ specialized in PHP, Javascript, VueJs, AngularJs, Webpack, Laravel, Lumen.
 + Redis 管理工具：[Medis (Mac)](https://xclient.info/s/medis.html)
 + MongoDB 管理工具：[Robo 3T](https://robomongo.org/)
 + 设计工具：[Sketch 5 (Mac)](https://www.sketch.com/)
-

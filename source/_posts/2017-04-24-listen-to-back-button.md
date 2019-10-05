@@ -4,7 +4,7 @@ abstract: 在ICONIC 2 快速实现双击退出APP的功能
 header_image: /assets/images/ionic2-banner.png
 date: 2017/04/24
 categories:
-  - Ionic 2
+  - Ionic
 tags:
   - Ionic 2
   - Angular 4
@@ -22,7 +22,7 @@ cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 ## 代码实现
 > 然后在```app.component.ts```做相对的改动
 
-```typescript
+```ts
 import { Component, ViewChild } from '@angular/core';
 import { Platform, ToastController, Nav, App } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';

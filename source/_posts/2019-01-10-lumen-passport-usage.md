@@ -2,9 +2,7 @@
 title: Lumen 使用 laravel passport
 date: 2019-01-10 01:51:23
 categories:
-  - Backend
-  - 后端
-  - Lumen
+  - Laravel
 tags:
   - Lumen
   - Laravel Passport
@@ -51,7 +49,6 @@ $app->routeMiddleware([
 $app->register(Laravel\Passport\PassportServiceProvider::class);
 $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
 ```
-
 ## 数据表移植和安装Laravel Passport
 
 ```bash
@@ -83,7 +80,7 @@ DELETE | /oauth/personal-access-tokens/{token_id} |            | \Laravel\Passpo
 
 ## 配置
 
-修改 ```config/auth.php``` 里面的配置, 按照项目需要修改. 下面是一个简单的例子
+修改 `config/auth.php` 里面的配置, 按照项目需要修改. 下面是一个简单的例子
 
 ```php
 return [
@@ -108,9 +105,10 @@ return [
 ];
 ```
 
-需要在 ```vendor\laravel\lumen-framework\config\auth.php``` 复制到项目根目录下的```config```文件夹里面, 如果没有config文件夹, 需要手动添加一个.
+需要在 `vendor\laravel\lumen-framework\config\auth.php` 复制到项目根目录下的`config`文件夹里面, 如果没有config文件夹, 需要手动添加一个.
 
-然后在```bootstrap/app.php```最前面加入配置应用, 因为lumen是不自动引入config里面的配置的.
+然后在`bootstrap/app.php`最前面加入配置应用, 因为lumen是不自动引入config里面的配置的.
+
 ```php
 $app->configure('auth');
 ```
@@ -141,18 +139,20 @@ public function boot()
 ```
 
 简单路由注册
+
 ```php
 Dusterio\LumenPassport\LumenPassport::routes($this->app);
 ```
 
 通用版本控制的路由
+
 ```php
 Dusterio\LumenPassport\LumenPassport::routes($this->app, ['prefix' => 'v1/oauth']);
 ```
 
 ## 用户模型
 
-需要在用户模型里面加入```HasApiTokens```的trait, 例子:
+需要在用户模型里面加入`HasApiTokens`的trait, 例子:
 
 ```php
 class User extends Model implements AuthenticatableContract, AuthorizableContract

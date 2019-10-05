@@ -3,7 +3,7 @@ title: "修复 Ionic 3.0.1 在IOS点击Tabs多次出现黑屏问题方法"
 abstract: Ionic 3.0.1 在IOS存在的一个严重的BUG，在IOS下多次重复点击TAB的时候页面会出现黑屏问题。
 date: 2017/04/11
 categories:
-  - Ionic 3
+  - Ionic
 tags:
   - Ionic 3
   - Angular 4

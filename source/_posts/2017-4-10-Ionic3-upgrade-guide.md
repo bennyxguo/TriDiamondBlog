@@ -4,7 +4,6 @@ abstract: 这一次的升级Ionic 3 换成了使用最新的Angular 4.0, 最新�
 header_image: /assets/images/ionic2-banner.png
 date: 2017/04/10
 categories:
-  - Frontend
   - Ionic
 tags:
   - Ionic 3

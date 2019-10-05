@@ -53,8 +53,6 @@ export class PasswordPage {
 
 # 创建自定义认证器
 
-![](https://github.com/Bennygx/bennygx.github.io/blob/master/assets/images/advance-validator-screenshot.png?raw=true)
-
 + 我们首先在项目根目录创建 **validators** 的文件夹
 + 然后在里面创建 **advance-validators.ts** 的ts文件
 + 在 **advance-validators.ts** 里面编以下代码

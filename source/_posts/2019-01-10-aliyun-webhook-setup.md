@@ -1,10 +1,11 @@
 ---
-title: 阿里云GitLab Webhook 自动部署手册
+title: GitLab Webhook 自动部署
 categories:
-  - Gitlab
+  - 运维
 tags:
   - Gitlab
   - Webhook
+cover: https://s2.ax1x.com/2019/09/18/n7ku11.png
 ---
 
 ## 创建与填写部署公钥

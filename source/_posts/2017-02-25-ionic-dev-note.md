@@ -5,7 +5,6 @@ header_image: /assets/images/ionic2-banner.png
 date: 2017/02/25
 categories:
   - Ionic
-  - Frontend
 tags:
   - Ionic 2
   - Angular 2
@@ -15,6 +14,7 @@ cover: https://s2.ax1x.com/2019/09/18/n7E8Wd.png
 
 因为IONIC2才刚刚开始进入正式版, 中文文档基本都是不全的, 我现在开发都是在看英文文档
 在开发的过程中遇到了很多文档没有描述的问题, 而且开发的过程中遇到一些框架本身没有完善的功能和存在的BUG
+
 我会在这个日记里面记录一些文档没有写的, 和我开发过程中遇到的一些坑和经验, 希望可以帮助那些刚刚接触IONIC2的程序猿们!
 
 ## APP配置
